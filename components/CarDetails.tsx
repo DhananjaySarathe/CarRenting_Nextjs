@@ -19,7 +19,8 @@ interface CarDetailsProps {
 // console.log("Carprops ");
 
 const CarDetails = ({isOpen,closeModal,car}:CarDetailsProps) => {
-    const carImage="/"+car.make+".png";
+    const carImage="/cars/"+car.make+".png";
+    
     console.log("car-Details Link",carImage)
   return (
     <>
