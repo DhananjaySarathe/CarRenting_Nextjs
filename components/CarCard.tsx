@@ -12,7 +12,7 @@ interface CarCardProps {
 
 const CarCard = ({ car }:CarCardProps) => {
     
-    const carImage="/cars/"+car.make+".png";
+    const carImage="/"+car.make+".png";
     const[isOpen,setIsOpen]=useState(false)
     // console.log("carrr   ",car);
     
